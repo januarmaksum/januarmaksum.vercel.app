@@ -9,7 +9,7 @@
       "job_end": "Present",
       "job_city": "Jakarta",
       "job_description": [
-        "I built and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
+        "Built, maintain and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
       ],
       "job_skills": ["React.js", "AngularJS"],
       "employer_name": "RS Harapan Kita",
@@ -24,9 +24,9 @@
       "job_end": "Sep 2023",
       "job_city": "Yogyakarta",
       "job_description": [
-        "I Developed Risk Integration Management System dashboard where users could view their risk management. I integrated React.js with framework Next.js to display data and interactive charts, providing users with a clear overview of their activities."
+        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated Api to display data and show interactive charts, providing users with a clear overview of their activities."
       ],
-      "job_skills": ["React.js", "NextJS", "TypeScript"],
+      "job_skills": ["React.js", "Next.js", "TypeScript"],
       "employer_name": "Kreasitech",
       "employer_link": "https://kreasitech.com/"
     }
