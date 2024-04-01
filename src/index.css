@@ -15,6 +15,7 @@ body {
   @apply text-slate-400;
   @apply selection:bg-primary/10;
   @apply selection:text-primary;
+  @apply scroll-smooth;
 }
 
 a:hover {

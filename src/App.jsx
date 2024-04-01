@@ -1,6 +1,7 @@
 import avatar from "./assets/me.webp";
 import Experiences from "./components/Experiences";
 import experiences from "./data/experiences.json";
+import { Link } from "react-scroll";
 
 function App() {
   const dataExperiences = experiences.experiences;
@@ -27,9 +28,44 @@ function App() {
           <p className="mt-3 max-w-xs">
             I build pixel-perfect, engaging, and accessible digital experiences.
           </p>
+          <nav className="flex flex-col mt-7">
+            <Link
+              to="about"
+              activeClass="active"
+              smooth={true}
+              duration={500}
+              offset={-100}
+              spy={true}
+              hashSpy={true}
+            >
+              About
+            </Link>
+            <Link
+              to="experience"
+              activeClass="active"
+              smooth={true}
+              duration={500}
+              offset={-50}
+              spy={true}
+              hashSpy={true}
+            >
+              Experience
+            </Link>
+            <Link
+              to="project"
+              activeClass="active"
+              smooth={true}
+              duration={500}
+              offset={-50}
+              spy={true}
+              hashSpy={true}
+            >
+              Project
+            </Link>
+          </nav>
         </aside>
-        <main className="w-1/2 py-24">
-          <div className="flex flex-col gap-3">
+        <main className="w-1/2 py-24 pb-[100rem]">
+          <div id="about" className="flex flex-col gap-3">
             <p>
               Hello. 👋 I&apos;m Januar, a frontend developer based in Jakarta,
               who enjoys building things that live on the internet. I develop
@@ -60,11 +96,14 @@ function App() {
             </p>
             <p>Adept at translating design concepts into fully functional.</p>
           </div>
-          <ol className="mt-28">
+          <ol id="experience" className="mt-28">
             {dataExperiences.map((item) => (
               <Experiences data={item} key={item.job_id} />
             ))}
           </ol>
+          <div id="project" className="h-96 mt-28">
+              project
+          </div>
         </main>
       </div>
     </div>
