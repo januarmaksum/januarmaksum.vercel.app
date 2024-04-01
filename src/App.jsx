@@ -9,12 +9,15 @@ function App() {
     <div className="mx-auto max-w-screen-xl px-24">
       <div className="lg:flex lg:gap-4">
         <aside className="py-24 w-1/2 sticky max-h-screen top-0">
-          <img
-            src={avatar}
-            alt="januar maksum"
-            width={150}
-            className="rounded-full"
-          />
+          <div className="relative w-[150px]">
+            <img
+              src={avatar}
+              alt="januar maksum"
+              width={150}
+              className="rounded-lg z-20 relative"
+            />
+            <div className="absolute border-primary rounded-lg z-10 top-2 -right-2 border w-[150px] h-[150px]" />
+          </div>
           <h1 className="text-5xl font-bold text-primary mt-6">
             Januar Maksum
           </h1>
@@ -50,9 +53,9 @@ function App() {
               projects on a daily basis.
             </p>
             <p>
-              I&apos;m experienced frontend developer more than 9 years in building
-              modern and user-friendly web applications. Proficient in web
-              development technologies, with a strong focus on performance,
+              I&apos;m experienced frontend developer more than 9 years in
+              building modern and user-friendly web applications. Proficient in
+              web development technologies, with a strong focus on performance,
               stability and maintainability.
             </p>
             <p>Adept at translating design concepts into fully functional.</p>
