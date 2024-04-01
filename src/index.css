@@ -21,3 +21,12 @@ body {
 a:hover {
   @apply text-primary;
 }
+
+a.active .nav-indicator {
+  @apply bg-slate-200;
+  @apply w-16;
+}
+
+a.active .nav-text {
+  @apply text-slate-200;
+}

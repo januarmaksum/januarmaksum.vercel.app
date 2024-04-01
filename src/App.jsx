@@ -1,12 +1,15 @@
+import { useRef } from "react";
 import avatar from "./assets/me.webp";
 import Experiences from "./components/Experiences";
+import Navigation from "./components/Navigation";
 import experiences from "./data/experiences.json";
+import navigation from "./data/navigation.json";
 import ScrollSpy from "react-ui-scrollspy";
-import { useRef } from "react";
 
 function App() {
   const parentScrollContainerRef = useRef(null);
   const dataExperiences = experiences.experiences;
+  const dataNav = navigation.navigation;
 
   const onPress = (e) => {
     e.preventDefault();
@@ -47,26 +50,22 @@ function App() {
           <p className="mt-3 max-w-xs">
             I build pixel-perfect, engaging, and accessible digital experiences.
           </p>
-          <nav className="flex flex-col mt-7">
-            <a onClick={(e) => onPress(e)} href={"#about"}>
-              <div data-to-scrollspy-id="about">About</div>
-            </a>
-            <a onClick={(e) => onPress(e)} href={"#experience"}>
-              <div data-to-scrollspy-id="experience">Experience</div>
-            </a>
+          <nav className="flex flex-col mt-12">
+            <ul className="w-max">
+              {dataNav.map((item) => (
+                <Navigation key={item?.nav_id} data={item} onPress={onPress} />
+              ))}
+            </ul>
           </nav>
         </aside>
-        <main
-          ref={parentScrollContainerRef}
-          className="w-1/2 py-24 pb-[100rem]"
-        >
+        <main ref={parentScrollContainerRef} className="w-1/2 py-24 pb-[100rem]">
           <ScrollSpy
             activeClass="active"
-            offsetBottom={100}
-            scrollThrottle={80}
+            offsetBottom={80}
+            scrollThrottle={20}
             useBoxMethod
           >
-            <div id="about" className="flex flex-col gap-3">
+            <div id="about" className="flex flex-col gap-3 mb-40">
               <p>
                 Hello. 👋 I&apos;m Januar, a frontend developer based in
                 Jakarta, who enjoys building things that live on the internet. I
@@ -90,13 +89,13 @@ function App() {
                 projects on a daily basis.
               </p>
               <p>
-                Experienced frontend developer more than 9 years in
-                building modern and user-friendly web applications. Proficient
-                in web development technologies, with a strong focus on
-                performance, stability and maintainability.
+                Experienced frontend developer more than 9 years in building
+                modern and user-friendly web applications. Proficient in web
+                development technologies, with a strong focus on performance,
+                stability and maintainability.
               </p>
             </div>
-            <ol id="experience" className="mt-36">
+            <ol id="experience">
               {dataExperiences.map((item) => (
                 <Experiences data={item} key={item.job_id} />
               ))}

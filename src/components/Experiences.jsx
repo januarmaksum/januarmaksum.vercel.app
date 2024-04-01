@@ -35,7 +35,7 @@ export default function Experiences({ data }) {
             {data?.job_employment_type}
           </h4>
           {data?.job_description.map((desc) => (
-            <p key={desc} className="mt-2 text-sm group-hover:text-slate-300">
+            <p key={desc} className="mt-2 text-base group-hover:text-slate-300">
               {desc}
             </p>
           ))}

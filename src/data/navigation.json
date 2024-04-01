@@ -1,0 +1,16 @@
+{
+  "navigation": [
+    {
+      "nav_id": "1",
+      "link_text": "About",
+      "href": "#about",
+      "scrollspy_id": "about"
+    },
+    {
+      "nav_id": "2",
+      "link_text": "Experience",
+      "href": "#experience",
+      "scrollspy_id": "experience"
+    }
+  ]
+}
