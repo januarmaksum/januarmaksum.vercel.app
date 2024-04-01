@@ -2,7 +2,6 @@
 
 My personal website built with React.js & Tailwindcss
 
----
 
 ## Installation
 
