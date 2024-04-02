@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function SocialMedia() {
   return (
@@ -14,6 +14,14 @@ export default function SocialMedia() {
       <li>
         <a href="https://github.com/januarmaksum" target="_blank">
           <FaGithub
+            size={28}
+            className="hover:text-slate-200 transition-all cursor-pointer"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="mailto:januarmaksum@gmail.com">
+          <FaEnvelope
             size={28}
             className="hover:text-slate-200 transition-all cursor-pointer"
           />
