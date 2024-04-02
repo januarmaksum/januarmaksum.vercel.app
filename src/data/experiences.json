@@ -9,9 +9,9 @@
       "job_end": "Present",
       "job_city": "Jakarta",
       "job_description": [
-        "Built, maintain and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
+        "Build, maintain and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
       ],
-      "job_skills": ["React.js", "AngularJS"],
+      "job_skills": ["React.js", "AngularJS", "TailwindCSS"],
       "employer_name": "RS Harapan Kita",
       "employer_link": "https://www.rsabhk.co.id/"
     },
@@ -24,11 +24,37 @@
       "job_end": "Sep 2023",
       "job_city": "Yogyakarta",
       "job_description": [
-        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated Api to display data and show interactive charts, providing users with a clear overview of their activities."
+        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated React.js with framework Next.js to display data and interactive charts, providing users with a clear overview of their activities."
       ],
       "job_skills": ["React.js", "Next.js", "TypeScript"],
       "employer_name": "Kreasitech",
       "employer_link": "https://kreasitech.com/"
+    },
+    {
+      "job_id": "3",
+      "job_title": "Frontend Engineer",
+      "job_employment_type": "Full-time",
+      "job_employment_location": "Hybrid",
+      "job_start": "Oct 2022",
+      "job_end": "Aug 2023",
+      "job_city": "Jakarta",
+      "job_description": ["Developed and styled interactive web apps employer for job seekers to find jobs and employers to post job openings. Collaborated with UI team and engineers to create new brands and design systems."],
+      "job_skills": ["React.js", "Next.js", "TypeScript", "TailwindCSS", "Gatsby.js", "GraphQL"],
+      "employer_name": "Pintarnya",
+      "employer_link": "https://pintarnya.com/"
+    },
+    {
+      "job_id": "4",
+      "job_title": "Frontend Developer",
+      "job_employment_type": "Full-time",
+      "job_employment_location": "Hybrid",
+      "job_start": "Jun 2019",
+      "job_end": "Oct 2022",
+      "job_city": "Jakarta",
+      "job_description": ["Developed, style and ship high-quality healthcare web apps for desktop and mobile view include secure user authorization, profile creation, appointment scheduling, search, filters, reviews patient and ratings."],
+      "job_skills": ["Polymer.js", "AJAX", "JavaScript", "Ruby on Rails"],
+      "employer_name": "Alodokter",
+      "employer_link": "https://www.alodokter.com/"
     }
   ]
 }

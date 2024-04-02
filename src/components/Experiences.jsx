@@ -39,13 +39,13 @@ export default function Experiences({ data }) {
               {desc}
             </p>
           ))}
-          <ul className="flex gap-1 mt-3">
-            {data?.job_skills.map((skils) => (
+          <ul className="flex flex-wrap gap-1 mt-3">
+            {data?.job_skills.map((skills) => (
               <li
-                key={skils}
+                key={skills}
                 className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold transition-colors border-transparent bg-primary/10 text-primary"
               >
-                {skils}
+                {skills}
               </li>
             ))}
           </ul>
