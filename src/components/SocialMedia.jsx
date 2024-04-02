@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function SocialMedia() {
   return (
-    <ul className="flex gap-4">
+    <ul className="flex mt-9 lg:mt-0 gap-4">
       <li>
         <a href="https://www.linkedin.com/in/januarmaksum" target="_blank">
           <FaLinkedin

@@ -14,14 +14,14 @@ export default function Summary({ data, onPress }) {
         />
         <div className="absolute border-primary rounded-lg z-10 top-2 -right-2 border w-[150px] h-[150px]" />
       </div>
-      <h1 className="text-5xl font-bold text-primary mt-6">Januar Maksum</h1>
-      <h2 className="text-xl mt-2 text-slate-200 font-semibold">
+      <h1 className="text-3xl md:text-5xl font-bold text-primary mt-6">Januar Maksum</h1>
+      <h2 className="text-lg md:text-xl mt-0 md:mt-2 text-slate-200 font-semibold">
         Frontend Developer
       </h2>
       <p className="mt-3 max-w-xs">
         I build pixel-perfect, engaging, and accessible digital experiences.
       </p>
-      <nav className="flex flex-col mt-12">
+      <nav className="hidden lg:flex flex-col mt-12">
         <ul className="w-max">
           {data?.map((item) => (
             <Navigation key={item?.nav_id} data={item} onPress={onPress} />

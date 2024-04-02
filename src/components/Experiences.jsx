@@ -5,13 +5,13 @@ export default function Experiences({ data }) {
       <a
         href={data?.employer_link}
         target="_blank"
-        className="group grid grid-cols-10 relative transition-all cursor-pointer"
+        className="group grid lg:grid-cols-8 xl:grid-cols-10 relative transition-all cursor-pointer"
       >
-        <div className="absolute transition rounded-md -inset-x-4 -inset-y-4 z-0 group-hover:bg-slate-800/50 group-hover:drop-shadow-sm group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]" />
+        <div className="absolute transition rounded-md -inset-x-4 lg:-right-3 xl:-right-4 -inset-y-4 z-0 group-hover:bg-slate-800/50 group-hover:drop-shadow-sm group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]" />
         <header className="col-span-3 z-10 text-xs mt-[5px] group-hover:text-slate-300">
           {data?.job_start} &mdash; {data?.job_end}
         </header>
-        <div className="col-span-7 z-10">
+        <div className="lg:col-span-8 xl:col-span-7 z-10">
           <h3 className="font-medium text-base group-hover:text-primary text-slate-200">
             {data?.job_title} &#8729; {data?.employer_name}
             <span className="inline-block">
@@ -35,7 +35,7 @@ export default function Experiences({ data }) {
             {data?.job_employment_type}
           </h4>
           {data?.job_description.map((desc) => (
-            <p key={desc} className="mt-2 text-base group-hover:text-slate-300">
+            <p key={desc} className="mt-2 text-sm md:text-base group-hover:text-slate-300 break-words">
               {desc}
             </p>
           ))}

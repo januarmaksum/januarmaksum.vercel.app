@@ -1,11 +1,11 @@
 import { useRef } from "react";
+import ScrollSpy from "react-ui-scrollspy";
 import About from "./components/About";
 import Experiences from "./components/Experiences";
 import SocialMedia from "./components/SocialMedia";
+import Summary from "./components/Summary";
 import experiences from "./data/experiences.json";
 import navigation from "./data/navigation.json";
-import ScrollSpy from "react-ui-scrollspy";
-import Summary from "./components/Summary";
 
 function App() {
   const parentScrollContainerRef = useRef(null);
@@ -30,15 +30,15 @@ function App() {
   };
 
   return (
-    <div className="mx-auto max-w-screen-xl px-24">
+    <div className="mx-auto lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24">
       <div className="lg:flex lg:gap-4">
-        <aside className="py-24 w-1/2 sticky max-h-screen flex flex-col justify-between top-0">
+        <aside className="py-24 px-6 mx-auto md:w-4/6 lg:w-1/2 lg:sticky max-h-screen flex flex-col justify-between top-0">
           <Summary data={dataNav} onPress={onPress} />
           <SocialMedia />
         </aside>
         <main
           ref={parentScrollContainerRef}
-          className="w-1/2 py-24 pb-[100rem]"
+          className="px-6 md:w-4/6 lg:w-1/2 mx-auto py-24 md:pb-[100rem]"
         >
           <ScrollSpy
             activeClass="active"
