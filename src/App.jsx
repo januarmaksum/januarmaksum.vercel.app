@@ -6,6 +6,7 @@ import SocialMedia from "./components/SocialMedia";
 import Summary from "./components/Summary";
 import experiences from "./data/experiences.json";
 import navigation from "./data/navigation.json";
+import LinkArrow from "./components/LinkArrow";
 
 function App() {
   const parentScrollContainerRef = useRef(null);
@@ -38,7 +39,7 @@ function App() {
         </aside>
         <main
           ref={parentScrollContainerRef}
-          className="px-6 md:w-4/6 lg:w-1/2 mx-auto py-24 md:pb-[100rem]"
+          className="px-6 md:w-4/6 lg:w-1/2 mx-auto py-24"
         >
           <ScrollSpy
             activeClass="active"
@@ -54,6 +55,12 @@ function App() {
                 <Experiences data={item} key={item.job_id} />
               ))}
             </ol>
+            <div className="group mt-14">
+              <a href="/januarmaksum_cv.pdf" className="flex group-hover:text-primary cursor-pointer text-slate-200 font-semibold">
+                View Full Résumé
+                <LinkArrow />
+              </a>
+            </div>
           </ScrollSpy>
         </main>
       </div>
