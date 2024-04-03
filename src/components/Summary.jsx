@@ -4,7 +4,7 @@ import Avatar from "../assets/me.webp";
 import Navigation from "./Navigation";
 
 export default function Summary({ data, onPress }) {
-  const [classNameId, setClassNameId] = useState(null);
+  const [classNameId, setClassNameId] = useState('#about');
 
   useEffect(() => {
     const handleScroll = () => {
