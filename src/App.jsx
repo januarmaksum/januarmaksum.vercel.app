@@ -7,10 +7,10 @@ import Summary from "./components/Summary";
 import LinkArrow from "./components/LinkArrow";
 import Projects from "./components/Projects";
 import SectionTitle from "./components/SectionTitle";
+import Footer from "./components/Footer";
 import experiences from "./data/experiences.json";
 import navigation from "./data/navigation.json";
 import { dataProjects } from "./data/projects";
-import Footer from "./components/Footer";
 
 function App() {
   const parentScrollContainerRef = useRef(null);
