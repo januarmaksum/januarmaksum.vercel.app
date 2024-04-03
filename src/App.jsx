@@ -10,6 +10,7 @@ import SectionTitle from "./components/SectionTitle";
 import experiences from "./data/experiences.json";
 import navigation from "./data/navigation.json";
 import { dataProjects } from "./data/projects";
+import Footer from "./components/Footer";
 
 function App() {
   const parentScrollContainerRef = useRef(null);
@@ -71,7 +72,7 @@ function App() {
                 </div>
               </ol>
             </section>
-            <section id="projects" className="mb-[10rem]">
+            <section id="projects" className="mb-40">
               <SectionTitle title="Projects" />
               <ol>
                 {dataProjects.map((item) => (
@@ -79,6 +80,7 @@ function App() {
                 ))}
               </ol>
             </section>
+            <Footer />
           </ScrollSpy>
         </main>
       </div>
