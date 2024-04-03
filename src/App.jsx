@@ -71,7 +71,7 @@ function App() {
                 </div>
               </ol>
             </section>
-            <section id="projects" className="mb-[35rem]">
+            <section id="projects" className="mb-[10rem]">
               <SectionTitle title="Projects" />
               <ol>
                 {dataProjects.map((item) => (
