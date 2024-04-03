@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+    <footer className="max-w-md text-sm text-slate-500 sm:pb-0">
       <p>
         Built with{" "}
         <a href="https://react.dev" className="text-slate-200" target="_blank">
