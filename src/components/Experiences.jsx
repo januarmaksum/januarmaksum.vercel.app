@@ -25,7 +25,7 @@ export default function Experiences({ data }) {
           {data?.job_description.map((desc) => (
             <p
               key={desc}
-              className="mt-2 text-sm md:text-base group-hover:text-slate-300 break-words"
+              className="mt-2 text-sm group-hover:text-slate-300 break-words"
             >
               {desc}
             </p>
