@@ -26,6 +26,7 @@ export default function Summary({ data, onPress }) {
           src={Avatar}
           alt="januar maksum"
           width={150}
+          height={150}
           className="rounded-lg z-20 relative"
         />
         <div className="absolute border-primary rounded-lg z-10 top-2 -right-2 border w-[150px] h-[150px]" />
