@@ -6,6 +6,10 @@
   text-rendering: optimizeLegibility;
 }
 
+html {
+  scroll-padding-top: 120px;
+}
+
 body {
   @apply bg-dark-blue;
   @apply font-Inter;
