@@ -11,6 +11,12 @@
       "link_text": "Experience",
       "href": "#experience",
       "scrollspy_id": "experience"
+    },
+    {
+      "nav_id": "3",
+      "link_text": "Projects",
+      "href": "#projects",
+      "scrollspy_id": "projects"
     }
   ]
 }
