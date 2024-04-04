@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 export default function Navigation({ data, onPress, spyId, classNameId }) {
   const classActive = spyId === classNameId ? "active" : "";
 

@@ -1,7 +1,7 @@
+import BuiltWith from "./BuiltWith";
 import ImageCover from "./ImageCover";
 import LinkArrow from "./LinkArrow";
 
-/* eslint-disable react/prop-types */
 export default function Projects({ data }) {
   return (
     <li className="mb-10">
@@ -22,14 +22,9 @@ export default function Projects({ data }) {
           <p className="mt-2 text-sm group-hover:text-slate-300 break-words">
             {data?.project_description}
           </p>
-          <ul className="flex flex-wrap gap-1 mt-3">
-            {data?.project_build_with.map((build) => (
-              <li
-                key={build}
-                className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold transition-colors border-transparent bg-primary/10 text-primary"
-              >
-                {build}
-              </li>
+          <ul className="flex flex-wrap mt-3">
+            {data?.project_build_with.map((build, index) => (
+              <BuiltWith build={build} key={index} />
             ))}
           </ul>
         </div>

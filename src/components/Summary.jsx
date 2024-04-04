@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import Avatar from "../assets/me.webp";
 import Navigation from "./Navigation";

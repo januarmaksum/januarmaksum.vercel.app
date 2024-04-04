@@ -1,6 +1,5 @@
 import LinkArrow from "./LinkArrow";
 
-/* eslint-disable react/prop-types */
 export default function Experiences({ data }) {
   return (
     <li className="mb-10">
