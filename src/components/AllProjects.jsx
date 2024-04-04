@@ -1,11 +1,22 @@
+import { useEffect } from "react";
 import { dataProjects } from "../data/projects";
 import { FaGithub } from "react-icons/fa";
 import BuiltWith from "./BuiltWith";
 import LinkArrow from "./LinkArrow";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function AllProjects() {
+  const { pathname } = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+    document.documentElement.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 mb-40">
