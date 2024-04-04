@@ -8,7 +8,7 @@ export default function AllProjects() {
   const navigate = useNavigate();
 
   return (
-    <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24">
+    <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 mb-40">
       <div className="relative mt-16 xl:mt-24">
         <button
           type="button"
