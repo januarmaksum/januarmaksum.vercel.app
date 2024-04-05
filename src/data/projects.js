@@ -125,4 +125,52 @@ export const projects = [
     project_year: "2023",
     project_link_type: "domain",
   },
+  {
+    project_id: "asd11",
+    project_title: "Creativica Media Global",
+    project_description:
+      "Creativica Media Global is a company who provide an exclusive merchandise package for company and event.",
+    project_build_with: ["TailwindCSS"],
+    project_link: "https://creativica.vercel.app",
+    project_link_short: "creativica.vercel.app",
+    project_image: null,
+    project_year: "2023",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd13",
+    project_title: "Wegive ∙ Swedish charity website",
+    project_description:
+      "Built landing page for Charity website to enhance our online presence and facilitate seamless donations and engagement.",
+    project_build_with: ["Bootstrap", "Sass"],
+    project_link: "https://wegive.vercel.app",
+    project_link_short: "wegive.vercel.app",
+    project_image: null,
+    project_year: "2019",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd14",
+    project_title: "Stribe ∙ Landing page messaging service",
+    project_description:
+      "Built landing page for Manage messages Eaisly.",
+    project_build_with: ["Bootstrap", "jQuery"],
+    project_link: "https://github.com/januarmaksum/stribe-messaging-service",
+    project_link_short: "github.com/januarmaksum/stribe-messaging-service",
+    project_image: null,
+    project_year: "2018",
+    project_link_type: "github",
+  },
+  {
+    project_id: "asd15",
+    project_title: "Comfort ∙ Carpet Custom Made",
+    project_description:
+      "Built online katalog for automotive accessories such as alarms, sound systems, window film, carpets for aftermarket and retail.",
+    project_build_with: ["Wordpress"],
+    project_link: "https://comfort-indonesia.co.id",
+    project_link_short: "comfort-indonesia.co.id",
+    project_image: null,
+    project_year: "2020",
+    project_link_type: "domain",
+  },
 ];

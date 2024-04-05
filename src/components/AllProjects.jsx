@@ -103,7 +103,7 @@ export default function AllProjects() {
                     ))}
                   </ul>
                 </th>
-                <td className="hidden xl:table-cell py-4 pr-4 align-top text-xs">
+                <td className="hidden xl:table-cell py-4 pr-4 align-top text-xs lg:w-[40%]">
                   {item.project_description}
                 </td>
                 <td className="hidden lg:table-cell py-4 pr-4 align-top">
@@ -113,10 +113,10 @@ export default function AllProjects() {
                     ))}
                   </ul>
                 </td>
-                <td className="hidden md:table-cell py-4 pr-4 align-top">
+                <td className="hidden md:table-cell py-4 align-top">
                   <a
                     href={item.project_link}
-                    className="flex group-hover:text-primary cursor-pointer font-semibold"
+                    className="group-hover:text-primary cursor-pointer font-semibold whitespace-nowrap"
                     target="_blank"
                   >
                     {item.project_link_type === "github" && (
