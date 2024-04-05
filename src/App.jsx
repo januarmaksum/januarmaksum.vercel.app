@@ -19,7 +19,6 @@ function App() {
   const dataExperiences = experiences.experiences;
   const dataNav = navigation.navigation;
   const dataProjects = projects;
-  console.log('dataProjects: ', dataProjects);
 
   const onPress = (e) => {
     e.preventDefault();

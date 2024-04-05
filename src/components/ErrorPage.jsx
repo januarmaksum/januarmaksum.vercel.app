@@ -4,12 +4,10 @@ import LinkArrow from "./LinkArrow";
 export default function ErrorPage() {
   const navigate = useNavigate();
   const error = useRouteError();
-  console.error(error);
 
   return (
     <div className="flex flex-col min-h-screen justify-center items-center">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
+      <h1>404</h1>
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
