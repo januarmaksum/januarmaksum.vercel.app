@@ -20,7 +20,7 @@ export default function Summary({ data, onPress }) {
 
   return (
     <div>
-      <div className="relative w-[150px]">
+      <div className="relative w-[150px] group">
         <img
           src={Avatar}
           alt="januar maksum"
@@ -28,7 +28,7 @@ export default function Summary({ data, onPress }) {
           height={150}
           className="rounded-lg z-20 relative"
         />
-        <div className="absolute border-primary rounded-lg z-10 top-2 -right-2 border w-[150px] h-[150px]" />
+        <div className="absolute group-hover:bg-primary transition-all group-hover:!bg-none border-primary rounded-lg z-10 top-2 -right-2 border w-[150px] h-[150px]" style={{ backgroundImage: "url(/frame_bg.svg)" }} />
       </div>
       <h1 className="text-3xl md:text-5xl font-bold text-primary mt-6">
         Januar Maksum
