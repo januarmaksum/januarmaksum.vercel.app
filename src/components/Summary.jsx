@@ -36,7 +36,7 @@ export default function Summary({ data, onPress }) {
       <h2 className="text-lg md:text-xl mt-0 md:mt-2 text-slate-200 font-semibold">
         Frontend Developer
       </h2>
-      <p className="mt-3 max-w-xs">
+      <p className="mt-3 max-w-xs invisible">
         I build pixel-perfect, engaging, and accessible digital experiences.
       </p>
       <nav className="hidden lg:flex flex-col mt-12">
