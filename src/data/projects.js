@@ -4,9 +4,9 @@ import bannerResto from "../assets/banner-project-resto.png";
 import bannerLottery from "../assets/banner-lottery.png";
 import bannerLicensing from "../assets/banner-izin-mudah.png";
 
-export const dataProjects = [
+export const projects = [
   {
-    project_id: "1",
+    project_id: "asd01",
     project_title: "Search Jobs App",
     project_description:
       "A simple Search jobs app built with React Native Expo and free Api jSearch from Rapid API. Include search and detail job and linked to real jobs in google.",
@@ -18,7 +18,7 @@ export const dataProjects = [
     project_link_type: "github",
   },
   {
-    project_id: "2",
+    project_id: "asd02",
     project_title: "Random Name Picker / Draw a Winner",
     project_description:
       "The company has decided to organize a giveaway where employees can participate and win exciting prizes. I built and designed web application to help company select random names or draw winners effortlessly.",
@@ -30,7 +30,7 @@ export const dataProjects = [
     project_link_type: "github",
   },
   {
-    project_id: "3",
+    project_id: "asd03",
     project_title: "Movie Search App",
     project_description:
       "Built with React.js, this app offers a seamless and intuitive experience for movie enthusiasts to search for their favorite films and explore details.",
@@ -42,7 +42,7 @@ export const dataProjects = [
     project_link_type: "github",
   },
   {
-    project_id: "4",
+    project_id: "asd04",
     project_title: "Restaurant ∙ Landing page",
     project_description:
       "Create a visually appealing and functional landing page for a restaurant named Resto using HTML and CSS.",
@@ -54,7 +54,7 @@ export const dataProjects = [
     project_link_type: "github",
   },
   {
-    project_id: "5",
+    project_id: "asd05",
     project_title: "Business Licensing Services",
     project_description:
       "Built and design online platform dedicated to simplifying the process of obtaining business licenses. Optimized structure html for best practice SEO.",
@@ -66,7 +66,7 @@ export const dataProjects = [
     project_link_type: "domain",
   },
   {
-    project_id: "6",
+    project_id: "asd06",
     project_title: "Butterfly Vacations",
     project_description:
       "Built tourist business service website. Provides services to tourists, such as lodging, food, guide, or transportation.",
@@ -78,7 +78,7 @@ export const dataProjects = [
     project_link_type: "domain",
   },
   {
-    project_id: "7",
+    project_id: "asd07",
     project_title: "Gesundheit.Jobs",
     project_description:
       "Create website Job offers on healthcare job fairs. Jobs in medicine, nursing, pharmacy, therapy, health care.",
@@ -90,7 +90,7 @@ export const dataProjects = [
     project_link_type: "domain",
   },
   {
-    project_id: "8",
+    project_id: "asd08",
     project_title: "APRDI ∙ Asosiasi Pengelola Reksa Dana Indonesia",
     project_description:
       "This association is a forum for communicating and discussing various matters related to developing and improving the quality of the investment management industry in Indonesia.",
@@ -102,7 +102,7 @@ export const dataProjects = [
     project_link_type: "domain",
   },
   {
-    project_id: "9",
+    project_id: "asd09",
     project_title: "SIGTECH",
     project_description:
       "Built online katalog products. Pioneer domestic manufacturer capable of designing and producing bearings and connections for flyover and bridge structures with special needs according to project needs.",
@@ -111,6 +111,18 @@ export const dataProjects = [
     project_link_short: "sigtech.co.id",
     project_image: null,
     project_year: "2020",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd10",
+    project_title: "Safety First Apparel",
+    project_description:
+      "Built online katalog with feature order via whatsapp. Rich Safety is present as a Supplier and Distributor of various kinds of safety equipment.",
+    project_build_with: ["Wordpress"],
+    project_link: "https://safetyfirstapparel.id",
+    project_link_short: "safetyfirstapparel.id",
+    project_image: null,
+    project_year: "2023",
     project_link_type: "domain",
   },
 ];

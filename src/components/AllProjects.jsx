@@ -1,13 +1,12 @@
 import { useEffect } from "react";
-import { dataProjects } from "../data/projects";
+import { projects } from "../data/projects";
 import { FaGithub } from "react-icons/fa";
 import BuiltWith from "./BuiltWith";
 import LinkArrow from "./LinkArrow";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function AllProjects() {
   const { pathname } = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo({
@@ -18,12 +17,13 @@ export default function AllProjects() {
     document.documentElement.scrollTo(0, 0);
   }, [pathname]);
 
+  const sortByYear = projects.sort((a, b) => b.project_year - a.project_year);
+
   return (
     <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 mb-40">
       <div className="relative mt-16 xl:mt-24">
-        <button
-          type="button"
-          onClick={() => navigate("/")}
+        <a
+          href="/"
           className="group mb-2 inline-flex items-center font-semibold leading-tight text-primary"
         >
           <svg
@@ -40,7 +40,7 @@ export default function AllProjects() {
             ></path>
           </svg>
           Januar Maksum
-        </button>
+        </a>
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
           All Projects
         </h1>
@@ -74,7 +74,7 @@ export default function AllProjects() {
             </tr>
           </thead>
           <tbody>
-            {dataProjects.map((item) => (
+            {sortByYear.map((item) => (
               <tr
                 key={item.project_id}
                 className="border-b border-slate-300/10 last:border-none"
@@ -82,7 +82,7 @@ export default function AllProjects() {
                 <td className="py-4 pr-4 align-top">{item.project_year}</td>
                 <th
                   scope="row"
-                  className="py-4 pr-4 align-top font-medium text-gray-900 dark:text-white"
+                  className="py-4 md:pr-4 align-top font-medium text-gray-900 dark:text-white"
                 >
                   <a
                     href={item.project_link}
@@ -94,6 +94,14 @@ export default function AllProjects() {
                       <LinkArrow />
                     </span>
                   </a>
+                  <div className="py-3 pr-3 md:hidden align-top text-xs text-slate-400">
+                    {item.project_description}
+                  </div>
+                  <ul className="flex md:hidden flex-wrap -translate-y-1.5">
+                    {item.project_build_with.map((build, index) => (
+                      <BuiltWith build={build} key={index} />
+                    ))}
+                  </ul>
                 </th>
                 <td className="hidden xl:table-cell py-4 pr-4 align-top text-xs">
                   {item.project_description}

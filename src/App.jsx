@@ -10,7 +10,7 @@ import SectionTitle from "./components/SectionTitle";
 import Footer from "./components/Footer";
 import experiences from "./data/experiences.json";
 import navigation from "./data/navigation.json";
-import { dataProjects } from "./data/projects";
+import { projects } from "./data/projects";
 import { useNavigate } from "react-router-dom";
 
 function App() {
@@ -18,6 +18,8 @@ function App() {
   const parentScrollContainerRef = useRef(null);
   const dataExperiences = experiences.experiences;
   const dataNav = navigation.navigation;
+  const dataProjects = projects;
+  console.log('dataProjects: ', dataProjects);
 
   const onPress = (e) => {
     e.preventDefault();
