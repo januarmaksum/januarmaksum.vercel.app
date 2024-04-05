@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     project_id: "asd02",
-    project_title: "Random Name Picker / Draw a Winner",
+    project_title: "Random Name Picker ∙ Draw a Winner",
     project_description:
       "The company has decided to organize a giveaway where employees can participate and win exciting prizes. I built and designed web application to help company select random names or draw winners effortlessly.",
     project_build_with: ["React.js", "TailwindCSS"],
@@ -151,7 +151,7 @@ export const projects = [
   },
   {
     project_id: "asd14",
-    project_title: "Stribe ∙ Landing page messaging service",
+    project_title: "Stribe ∙ Messaging service",
     project_description:
       "Built landing page for Manage messages Eaisly.",
     project_build_with: ["Bootstrap", "jQuery"],
