@@ -7,10 +7,10 @@ export default function About() {
         frontend developer. My interest in visuals and code made me learn a lot
         about using supporting tools, such as software Visual Studio Code.
       </p>
-      <p>
+      <p className="hidden lg:block">
         Equipped with knowledge from studying informatics engineering, I
         understand how systems work behind the scenes until they are presented
-        to users. Understand the basic framework of programming languages, for
+        to users. Understand the basic programming languages, for
         example HTML, CSS and JavaScript.
       </p>
       <p>

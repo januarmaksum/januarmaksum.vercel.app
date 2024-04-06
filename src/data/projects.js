@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     project_id: "asd02",
-    project_title: "Random Name Picker ∙ Draw a Winner",
+    project_title: "Draw a Winner ∙ Name Picker",
     project_description:
       "The company has decided to organize a giveaway where employees can participate and win exciting prizes. I built and designed web application to help company select random names or draw winners effortlessly.",
     project_build_with: ["React.js", "TailwindCSS"],
@@ -143,11 +143,11 @@ export const projects = [
     project_description:
       "Built landing page for Charity website to enhance our online presence and facilitate seamless donations and engagement.",
     project_build_with: ["Bootstrap", "Sass"],
-    project_link: "https://wegive.vercel.app",
-    project_link_short: "wegive.vercel.app",
+    project_link: "https://github.com/januarmaksum/wegive-charity-website",
+    project_link_short: "github.com/januarmaksum/wegive-charity-website",
     project_image: null,
     project_year: "2019",
-    project_link_type: "domain",
+    project_link_type: "github",
   },
   {
     project_id: "asd14",
@@ -171,6 +171,18 @@ export const projects = [
     project_link_short: "comfort-indonesia.co.id",
     project_image: null,
     project_year: "2020",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd16",
+    project_title: "Pintarnya ∙ Post a Job",
+    project_description:
+      "Built Landing page a job search platform that focuses on blue collar workers to gain access to trusted job vacancy information that can be accessed quickly and easily.",
+    project_build_with: ["React.js", "Next.js", "Styled Component"],
+    project_link: "https://pintarnya.com/pasang-loker",
+    project_link_short: "pintarnya.com/pasang-loker",
+    project_image: null,
+    project_year: "2023",
     project_link_type: "domain",
   },
 ];

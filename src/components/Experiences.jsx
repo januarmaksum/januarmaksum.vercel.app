@@ -13,11 +13,11 @@ export default function Experiences({ data }) {
           {data?.job_start} &mdash; {data?.job_end}
         </header>
         <div className="lg:col-span-8 xl:col-span-7 z-10">
-          <h3 className="font-medium text-base group-hover:text-primary text-slate-200">
+          <h3 className="font-medium text-base group-hover:text-primary text-slate-200 mt-[5px] xl:mt-0">
             {data?.job_title} &#8729; {data?.employer_name}
             <LinkArrow />
           </h3>
-          <h4 className="text-sm text-slate-200">
+          <h4 className="text-sm text-slate-200 mt-[5px]">
             {data?.job_city} &#8729; {data?.job_employment_location} &#8729;{" "}
             {data?.job_employment_type}
           </h4>

@@ -24,7 +24,7 @@ export default function AllProjects() {
       <div className="relative mt-16 xl:mt-24">
         <a
           href="/"
-          className="group mb-2 inline-flex items-center font-semibold leading-tight text-primary"
+          className="group mb-2 inline-flex items-center leading-tight text-primary"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -80,30 +80,30 @@ export default function AllProjects() {
                 className="border-b border-slate-300/10 last:border-none"
               >
                 <td className="py-4 pr-4 align-top">{item.project_year}</td>
-                <th
-                  scope="row"
-                  className="py-4 md:pr-4 align-top font-medium text-slate-200"
-                >
+                <td className="py-4 md:pr-4 align-top text-slate-200">
                   <a
                     href={item.project_link}
-                    className="group-hover:text-primary cursor-pointer font-semibold"
+                    className="group-hover:text-primary cursor-pointer"
                     target="_blank"
                   >
-                    {item.project_title}{" "}
-                    <span className="md:hidden">
-                      <LinkArrow />
+                    <span className="font-semibold md:pr-0">
+                      {item.project_title}{" "}
+                      <span className="md:hidden">
+                        <LinkArrow />
+                      </span>
                     </span>
-                    <div className="py-3 pr-3 md:hidden align-top text-xs text-slate-400">
+
+                    <div className="py-3 pr-3 md:hidden font-normal align-top text-slate-400 text-sm break-words">
                       {item.project_description}
                     </div>
-                    <ul className="flex md:hidden flex-wrap -translate-y-1.5">
+                    <ul className="flex md:hidden mt-2 flex-wrap -translate-y-1.5">
                       {item.project_build_with.map((build, index) => (
                         <BuiltWith build={build} key={index} />
                       ))}
                     </ul>
                   </a>
-                </th>
-                <td className="hidden xl:table-cell py-4 pr-4 align-top text-sm lg:w-[40%]">
+                </td>
+                <td className="hidden xl:table-cell py-4 pr-4 align-top text-sm lg:w-[40%] break-words">
                   {item.project_description}
                 </td>
                 <td className="hidden lg:table-cell py-4 pr-4 align-top">
@@ -120,12 +120,12 @@ export default function AllProjects() {
                     target="_blank"
                   >
                     {item.project_link_type === "github" && (
-                      <div className="flex items-center gap-1">
+                      <div className="inline-flex items-center gap-1">
                         <span>GitHub</span>
                         <span>
                           <FaGithub
                             size={14}
-                            className="hover:text-slate-200 transition-all cursor-pointer"
+                            className="group-hover:text-slate-200 cursor-pointer"
                           />
                         </span>
                       </div>
