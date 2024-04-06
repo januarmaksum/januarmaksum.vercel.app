@@ -21,7 +21,7 @@ export default function SocialMedia() {
         </a>
       </li>
       <li className="group">
-        <a href="/januarmaksum_cv.pdf" className="bg-primary group-hover:text-primary border-2 border-primary group-hover:border-primary group-hover:bg-dark-blue transition-all text-dark-blue inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-sm bg-primary/10">
+        <a href="/januarmaksum_cv.pdf" className="bg-primary group-hover:text-primary border-2 border-primary group-hover:border-primary group-hover:bg-dark-blue transition-all text-dark-blue inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-sm">
           <span>Resume</span>
           <GoDownload
             size={20}
