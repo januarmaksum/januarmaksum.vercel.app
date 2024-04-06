@@ -44,8 +44,8 @@ export default function AllProjects() {
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
           All Projects
         </h1>
-        <table className="mt-12 w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 border-collapse">
-          <thead className="sticky top-0 z-10 border-b border-slate-300/10 bg-dark-blue/75 px-6 py-5 backdrop-blur text-xs text-gray-900 uppercase dark:text-gray-400">
+        <table className="mt-12 w-full text-sm text-left rtl:text-right border-collapse">
+          <thead className="sticky top-0 z-10 border-b border-slate-300/10 bg-dark-blue/75 px-6 py-5 backdrop-blur text-xs">
             <tr>
               <th scope="col" className="py-3 text-slate-200">
                 Year
@@ -82,7 +82,7 @@ export default function AllProjects() {
                 <td className="py-4 pr-4 align-top">{item.project_year}</td>
                 <th
                   scope="row"
-                  className="py-4 md:pr-4 align-top font-medium text-gray-900 dark:text-white"
+                  className="py-4 md:pr-4 align-top font-medium text-slate-200"
                 >
                   <a
                     href={item.project_link}
