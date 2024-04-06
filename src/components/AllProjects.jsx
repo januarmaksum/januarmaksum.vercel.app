@@ -93,17 +93,17 @@ export default function AllProjects() {
                     <span className="md:hidden">
                       <LinkArrow />
                     </span>
+                    <div className="py-3 pr-3 md:hidden align-top text-xs text-slate-400">
+                      {item.project_description}
+                    </div>
+                    <ul className="flex md:hidden flex-wrap -translate-y-1.5">
+                      {item.project_build_with.map((build, index) => (
+                        <BuiltWith build={build} key={index} />
+                      ))}
+                    </ul>
                   </a>
-                  <div className="py-3 pr-3 md:hidden align-top text-xs text-slate-400">
-                    {item.project_description}
-                  </div>
-                  <ul className="flex md:hidden flex-wrap -translate-y-1.5">
-                    {item.project_build_with.map((build, index) => (
-                      <BuiltWith build={build} key={index} />
-                    ))}
-                  </ul>
                 </th>
-                <td className="hidden xl:table-cell py-4 pr-4 align-top text-xs lg:w-[40%]">
+                <td className="hidden xl:table-cell py-4 pr-4 align-top text-sm lg:w-[40%]">
                   {item.project_description}
                 </td>
                 <td className="hidden lg:table-cell py-4 pr-4 align-top">
