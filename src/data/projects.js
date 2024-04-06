@@ -58,7 +58,7 @@ export const projects = [
     project_title: "Business Licensing Services",
     project_description:
       "Built and design online platform dedicated to simplifying the process of obtaining business licenses. Optimized structure html for best practice SEO.",
-    project_build_with: ["Wordpress"],
+    project_build_with: ["Wordpress", "Elementor"],
     project_link: "https://izinmudah.com",
     project_link_short: "izinmudah.com",
     project_image: bannerLicensing,
@@ -180,9 +180,21 @@ export const projects = [
       "Built Landing page a job search platform that focuses on blue collar workers to gain access to trusted job vacancy information that can be accessed quickly and easily.",
     project_build_with: ["React.js", "Next.js", "Styled Component"],
     project_link: "https://pintarnya.com/pasang-loker",
-    project_link_short: "pintarnya.com/pasang-loker",
+    project_link_short: "pintarnya.com",
     project_image: null,
     project_year: "2023",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd17",
+    project_title: "Phloxy Emerald Sinergi",
+    project_description:
+      "Design and built Landing page Domestic Investment Services Company which operates in the field of Formalities Service Management.",
+    project_build_with: ["Wordpress", "Elementor"],
+    project_link: "https://phloxyemerald.com",
+    project_link_short: "phloxyemerald.com",
+    project_image: null,
+    project_year: "2022",
     project_link_type: "domain",
   },
 ];

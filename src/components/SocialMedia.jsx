@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 
 export default function SocialMedia() {
@@ -20,20 +20,12 @@ export default function SocialMedia() {
           />
         </a>
       </li>
-      <li>
-        <a href="mailto:januarmaksum@gmail.com">
-          <FaEnvelope
-            size={28}
-            className="hover:text-slate-200 transition-all cursor-pointer"
-          />
-        </a>
-      </li>
       <li className="group">
-        <a href="/januarmaksum_cv.pdf" className="group-hover:bg-primary transition-all group-hover:text-dark-blue inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-xs bg-primary/10 text-primary">
+        <a href="/januarmaksum_cv.pdf" className="bg-primary group-hover:text-primary border-2 border-primary group-hover:border-primary group-hover:bg-dark-blue transition-all text-dark-blue inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-sm bg-primary/10">
           <span>Resume</span>
           <GoDownload
             size={20}
-            className="group-hover:text-dark-blue cursor-pointer"
+            className="text-dark-blue group-hover:text-primary cursor-pointer"
           />
         </a>
       </li>
