@@ -3,10 +3,11 @@ import { projects } from "../data/projects";
 import { FaGithub } from "react-icons/fa";
 import BuiltWith from "./BuiltWith";
 import LinkArrow from "./LinkArrow";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function AllProjects() {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo({
@@ -22,8 +23,9 @@ export default function AllProjects() {
   return (
     <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 mb-40">
       <div className="relative mt-16 xl:mt-24">
-        <a
-          href="/"
+        <button
+          onClick={() => navigate("/")}
+          type="button"
           className="group mb-2 inline-flex items-center leading-tight text-primary"
         >
           <svg
@@ -40,7 +42,7 @@ export default function AllProjects() {
             ></path>
           </svg>
           Januar Maksum
-        </a>
+        </button>
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
           All Projects
         </h1>
