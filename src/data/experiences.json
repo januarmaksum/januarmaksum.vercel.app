@@ -11,7 +11,7 @@
       "job_description": [
         "Build, maintain and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
       ],
-      "job_skills": ["React.js", "AngularJS", "TailwindCSS"],
+      "job_skills": ["React", "AngularJS", "TailwindCSS"],
       "employer_name": "RS Harapan Kita",
       "employer_link": "https://www.rsabhk.co.id/"
     },
@@ -24,9 +24,9 @@
       "job_end": "Sep 2023",
       "job_city": "Yogyakarta",
       "job_description": [
-        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated React.js with framework Next.js to display data and interactive charts, providing users with a clear overview of their activities."
+        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated React with framework Next.js to display data and interactive charts, providing users with a clear overview of their activities."
       ],
-      "job_skills": ["React.js", "Next.js", "TypeScript"],
+      "job_skills": ["React", "Next.js", "TypeScript"],
       "employer_name": "Kreasitech",
       "employer_link": "https://kreasitech.com/"
     },
@@ -39,7 +39,7 @@
       "job_end": "Aug 2023",
       "job_city": "Jakarta",
       "job_description": ["Developed and styled interactive web apps employer for job seekers to find jobs and employers to post job openings. Collaborated with UI team and engineers to create new brands and design systems."],
-      "job_skills": ["React.js", "Next.js", "TypeScript", "TailwindCSS", "Gatsby.js", "GraphQL"],
+      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "Gatsby.js", "GraphQL"],
       "employer_name": "Pintarnya",
       "employer_link": "https://pintarnya.com/"
     },

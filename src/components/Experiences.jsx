@@ -17,10 +17,6 @@ export default function Experiences({ data }) {
             {data?.job_title} &#8729; {data?.employer_name}
             <LinkArrow />
           </h3>
-          <h4 className="text-sm text-slate-200 mt-[5px]">
-            {data?.job_city} &#8729; {data?.job_employment_location} &#8729;{" "}
-            {data?.job_employment_type}
-          </h4>
           {data?.job_description.map((desc) => (
             <p
               key={desc}

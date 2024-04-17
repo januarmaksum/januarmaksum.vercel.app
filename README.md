@@ -1,6 +1,6 @@
 # Januar Maksum
 
-My personal website built with React.js & Tailwindcss
+My personal website built with React & Tailwindcss
 
 
 ## Installation

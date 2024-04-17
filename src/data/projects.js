@@ -10,7 +10,7 @@ export const projects = [
     project_title: "Search Jobs App",
     project_description:
       "A simple Search jobs app built with React Native Expo and free Api jSearch from Rapid API. Include search and detail job and linked to real jobs in google.",
-    project_build_with: ["React Native", "React.js", "Expo"],
+    project_build_with: ["React Native", "React", "Expo"],
     project_link: "https://github.com/januarmaksum/react-native-search-jobs",
     project_link_short: "github.com/januarmaksum/react-native-search-jobs",
     project_image: bannerSearchJob,
@@ -22,7 +22,7 @@ export const projects = [
     project_title: "Draw a Winner ∙ Name Picker",
     project_description:
       "The company has decided to organize a giveaway where employees can participate and win exciting prizes. I built and designed web application to help company select random names or draw winners effortlessly.",
-    project_build_with: ["React.js", "TailwindCSS"],
+    project_build_with: ["React", "TailwindCSS"],
     project_link: "https://github.com/januarmaksum/react-random-name-picker",
     project_link_short: "github.com/januarmaksum/react-random-name-picker",
     project_image: bannerLottery,
@@ -33,8 +33,8 @@ export const projects = [
     project_id: "asd03",
     project_title: "Movie Search App",
     project_description:
-      "Built with React.js, this app offers a seamless and intuitive experience for movie enthusiasts to search for their favorite films and explore details.",
-    project_build_with: ["React.js"],
+      "Built with React, this app offers a seamless and intuitive experience for movie enthusiasts to search for their favorite films and explore details.",
+    project_build_with: ["React"],
     project_link: "https://github.com/januarmaksum/movie-app-react",
     project_link_short: "github.com/januarmaksum/movie-app-react",
     project_image: bannerMovie,
@@ -178,7 +178,7 @@ export const projects = [
     project_title: "Pintarnya ∙ Post a Job",
     project_description:
       "Built Landing page a job search platform that focuses on blue collar workers to gain access to trusted job vacancy information that can be accessed quickly and easily.",
-    project_build_with: ["React.js", "Next.js", "Styled Component"],
+    project_build_with: ["React", "Next.js", "Styled Component"],
     project_link: "https://pintarnya.com/pasang-loker",
     project_link_short: "pintarnya.com",
     project_image: null,

@@ -4,7 +4,7 @@ export default function Footer() {
       <p>
         Built with{" "}
         <a href="https://react.dev" className="text-slate-200" target="_blank">
-          React.js
+          React
         </a>{" "}
         and{" "}
         <a

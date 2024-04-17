@@ -69,7 +69,7 @@ function App() {
                     href="/januarmaksum_cv.pdf"
                     className="flex group-hover:text-primary cursor-pointer text-slate-200 font-semibold"
                   >
-                    View Full Résumé
+                    View Full Resume
                     <LinkArrow />
                   </a>
                 </div>
