@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  text-rendering: optimizeLegibility;
+@layer base {
+  :root {
+    --y: 0;
+    --x: 0;
+    text-rendering: optimizeLegibility;
+  }
 }
 
 html {
@@ -33,4 +37,22 @@ a.active .nav-indicator {
 
 a.active .nav-text {
   @apply text-slate-200;
+}
+
+.hero {
+  background: radial-gradient(
+    600px circle at var(--x) var(--y),
+    rgba(29, 78, 216, 0.15),
+    transparent 80%
+  );
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background: radial-gradient(
+      600px at var(--x) var(--y),
+      rgba(29, 78, 216, 0.15),
+      transparent 80%
+    );
+  }
 }

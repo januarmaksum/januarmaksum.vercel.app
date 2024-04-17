@@ -5,16 +5,25 @@ import App from "./App.jsx";
 import ErrorPage from "./components/ErrorPage.jsx";
 import AllProjects from "./components/AllProjects.jsx";
 import "./index.css";
+import Layout from "./Layout.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <Layout>
+        <App />
+      </Layout>
+    ),
     errorElement: <ErrorPage />,
   },
   {
     path: "/projects",
-    element: <AllProjects />,
+    element: (
+      <Layout>
+        <AllProjects />
+      </Layout>
+    ),
   },
 ]);
 
