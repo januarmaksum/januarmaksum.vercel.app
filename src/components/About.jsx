@@ -6,7 +6,7 @@ export default function About() {
         Indonesia. 📍
       </p>
       <p>🚀 Specializing in React, Next.js, TailwindCSS, and React Native.</p>
-      <p>👨‍💻 My passion is to create and develop a clean UI/UX for my users. Additionally, my proficiency extends to React Native, enabling me to develop cross-platform mobile applications efficiently.</p>
+      <p>👨‍💻 My passion is to create and develop a clean UI/UX. Additionally, my proficiency extends to React Native, enabling me to develop cross-platform mobile applications efficiently.</p>
       <p>🧰 Here are a few technologies I&apos;ve been working with recently:</p>
       <ul className="columns-3 xl:columns-4 list-disc pl-4 text-sm grid-flow-col">
         <li>HTML</li>
