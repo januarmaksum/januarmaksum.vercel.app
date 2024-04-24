@@ -56,3 +56,23 @@ a.active .nav-text {
     );
   }
 }
+
+@media screen and (max-width: 1439px), screen and (max-height: 700px) {
+  .avatar {
+    display: none;
+  }
+
+  .title-page {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .avatar {
+    display: block;
+  }
+
+  .title-page {
+    margin-top: 1.5rem;
+  }
+}
