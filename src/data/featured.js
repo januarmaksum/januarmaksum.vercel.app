@@ -22,7 +22,7 @@ export const featured = [
     project_title: "Draw a Winner ∙ Name Picker",
     project_description:
       "The company has decided to organize a giveaway where employees can participate and win exciting prizes. I built and designed web application to help company select random names or draw winners effortlessly.",
-    project_build_with: ["React", "TailwindCSS"],
+    project_build_with: ["React", "React Router", "TailwindCSS"],
     project_link: "https://github.com/januarmaksum/react-random-name-picker",
     project_link_short: "github.com/januarmaksum/react-random-name-picker",
     project_image: bannerLottery,
@@ -34,7 +34,7 @@ export const featured = [
     project_title: "Movie Search App",
     project_description:
       "Built with React, this app offers a seamless and intuitive experience for movie enthusiasts to search for their favorite films and explore details.",
-    project_build_with: ["React"],
+    project_build_with: ["React", "React Router"],
     project_link: "https://github.com/januarmaksum/movie-app-react",
     project_link_short: "github.com/januarmaksum/movie-app-react",
     project_image: bannerMovie,

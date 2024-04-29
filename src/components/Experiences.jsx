@@ -14,7 +14,7 @@ export default function Experiences({ data }) {
         </header>
         <div className="lg:col-span-8 xl:col-span-7 z-10">
           <h3 className="font-medium text-base group-hover:text-primary text-slate-200 mt-[5px] xl:mt-0">
-            {data?.job_title} &#8729; {data?.employer_name}
+            {data?.job_title} at <span className="text-slate-400 group-hover:text-white">{data?.employer_name}</span>
             <LinkArrow />
           </h3>
           {data?.job_description.map((desc) => (
