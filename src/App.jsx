@@ -66,7 +66,7 @@ function App() {
                 ))}
                 <div className="group mt-4 inline-flex">
                   <a
-                    href="/januarmaksum_cv.pdf"
+                    href="/januarmaksum-cv.pdf"
                     className="flex group-hover:text-primary cursor-pointer text-slate-200 font-semibold"
                   >
                     View Full Resume
