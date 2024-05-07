@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import LinkArrow from "./LinkArrow";
 
 export default function Experiences({ data }) {
@@ -14,16 +15,22 @@ export default function Experiences({ data }) {
         </header>
         <div className="lg:col-span-8 xl:col-span-7 z-10">
           <h3 className="font-medium text-base group-hover:text-primary text-slate-200 mt-[5px] xl:mt-0">
-            {data?.job_title} at <span className="text-slate-400 group-hover:text-white">{data?.employer_name}</span>
+            {data?.job_title}{" "}
+            <span className="text-slate-400 group-hover:text-primary">at</span>{" "}
+            {data?.employer_name}
             <LinkArrow />
           </h3>
-          {data?.job_description.map((desc) => (
-            <p
-              key={desc}
-              className="mt-2 text-sm group-hover:text-slate-300 break-words"
-            >
-              {desc}
-            </p>
+          {data?.job_description.map((item) => (
+            <Fragment key={item.summary}>
+              <p className="mt-2 text-sm group-hover:text-slate-300 text-pretty">
+                {item.summary}
+              </p>
+              <ul className="list-disc list-outside mt-2">
+                {item.details.map((detail) => (
+                  <li className="text-sm group-hover:text-slate-300 text-pretty" key={detail}>{detail}</li>
+                ))}
+              </ul>
+            </Fragment>
           ))}
           <ul className="flex flex-wrap gap-1 mt-3">
             {data?.job_skills.map((skills) => (

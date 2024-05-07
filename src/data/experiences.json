@@ -9,49 +9,62 @@
       "job_end": "Present",
       "job_city": "Jakarta",
       "job_description": [
-        "Build, maintain and design user-friendly interfaces for healthcare applications, ensuring a seamless and intuitive experience for medical staff, administrators, and patients."
+        {
+          "summary": "Harapan Kita Hospital is located in Jakarta, Indonesia, founded on December 22, 1979. Have a vision of being at the forefront of women's, perinatal, and child health services.",
+          "details": [
+            "Implement feature in SMART RSAB Backoffice web application.",
+            "Collaborate with fellow Software Engineer in problem solving and development issues.",
+            "Work closely with a System Analyst for immediate bugs/issues resolution.",
+            "Researching and evaluating new technologies that may improve our processes or code bases."
+          ]
+        }
       ],
-      "job_skills": ["React", "AngularJS", "TailwindCSS"],
+      "job_skills": ["React", "AngularJS", "jQuery"],
       "employer_name": "RS Harapan Kita",
       "employer_link": "https://www.rsabhk.co.id/"
     },
     {
       "job_id": "2",
-      "job_title": "Frontend Developer",
-      "job_employment_type": "Contract",
-      "job_employment_location": "Remote",
-      "job_start": "Aug 2023",
-      "job_end": "Sep 2023",
-      "job_city": "Yogyakarta",
-      "job_description": [
-        "Developed Risk Integration Management System dashboard where users could view their risk management. Integrated React with framework Next.js to display data and interactive charts, providing users with a clear overview of their activities."
-      ],
-      "job_skills": ["React", "Next.js", "TypeScript"],
-      "employer_name": "Kreasitech",
-      "employer_link": "https://kreasitech.com/"
-    },
-    {
-      "job_id": "3",
       "job_title": "Frontend Engineer",
       "job_employment_type": "Full-time",
       "job_employment_location": "Hybrid",
       "job_start": "Oct 2022",
       "job_end": "Aug 2023",
       "job_city": "Jakarta",
-      "job_description": ["Developed and styled interactive web apps employer for job seekers to find jobs and employers to post job openings. Collaborated with UI team and engineers to create new brands and design systems."],
-      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "Gatsby.js", "GraphQL"],
+      "job_description": [
+        {
+          "summary": "Pintarnya is a job apps or job search platform provide thousand job vacancy and fresher jobs based in Indonesia.",
+          "details": [
+            "Contributed to the successful launch of a mobile-responsive, increase mobile traffic and user experience up to 30%.",
+            "Collaborate with UI and backend teams to implement design and ensure smooth integration with backend functionalities.",
+            "Improving web performance, including code optimization and image compression best practices.",
+            "Work closely with QA for immediate bugs/issues resolution."
+          ]
+        }
+      ],
+      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS"],
       "employer_name": "Pintarnya",
       "employer_link": "https://pintarnya.com/"
     },
     {
-      "job_id": "4",
-      "job_title": "Frontend Developer",
+      "job_id": "3",
+      "job_title": "Sr Frontend Developer",
       "job_employment_type": "Full-time",
       "job_employment_location": "Hybrid",
       "job_start": "Jun 2019",
       "job_end": "Oct 2022",
       "job_city": "Jakarta",
-      "job_description": ["Developed, style and ship high-quality healthcare web apps for desktop and mobile view include secure user authorization, profile creation, appointment scheduling, search, filters, reviews patient and ratings."],
+      "job_description": [
+        {
+          "summary": "Alodokter is the #1 digital health company in Indonesia. Alodokter brings high-quality medical services to its 30 million+ Monthly Active Users by providing an integrated mobile solution for patients and doctors.",
+          "details": [
+            "Success revamp the UI/UX for the booking doctor process, resulting in a 40% increase in user engagement.",
+            "Collaborate with Head of Engineering to improve web performance and loading speeds up to 20%.",
+            "Implement A/B tests on web components, resulting in improved conversion rates and user engagement.",
+            "Work closely with QA and Product Manager for immediate bugs/issues resolution."
+          ]
+        }
+      ],
       "job_skills": ["Polymer.js", "AJAX", "JavaScript", "Ruby on Rails"],
       "employer_name": "Alodokter",
       "employer_link": "https://www.alodokter.com/"
