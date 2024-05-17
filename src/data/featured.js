@@ -1,9 +1,3 @@
-import bannerSearchJob from "../assets/banner-project-search-job.jpeg";
-import bannerMovie from "../assets/banner-movie-app.png";
-import bannerResto from "../assets/banner-project-resto.png";
-import bannerLottery from "../assets/banner-lottery.png";
-import bannerLicensing from "../assets/banner-izin-mudah.png";
-
 export const featured = [
   {
     project_id: "asd01",
@@ -13,7 +7,7 @@ export const featured = [
     project_build_with: ["React Native", "React", "Expo"],
     project_link: "https://github.com/januarmaksum/react-native-search-jobs",
     project_link_short: "github.com/januarmaksum/react-native-search-jobs",
-    project_image: bannerSearchJob,
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1715914523/banner-project-search-job_jtwpse.png",
     project_year: "2024",
     project_link_type: "github",
   },
@@ -25,7 +19,7 @@ export const featured = [
     project_build_with: ["React", "React Router", "TailwindCSS"],
     project_link: "https://github.com/januarmaksum/react-random-name-picker",
     project_link_short: "github.com/januarmaksum/react-random-name-picker",
-    project_image: bannerLottery,
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1715917756/draw-a-winner_hel50c.jpg",
     project_year: "2024",
     project_link_type: "github",
   },
@@ -37,7 +31,7 @@ export const featured = [
     project_build_with: ["React", "React Router"],
     project_link: "https://github.com/januarmaksum/movie-app-react",
     project_link_short: "github.com/januarmaksum/movie-app-react",
-    project_image: bannerMovie,
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1715918145/movie-app_zovfhd.jpg",
     project_year: "2021",
     project_link_type: "github",
   },
@@ -49,7 +43,7 @@ export const featured = [
     project_build_with: ["HTML", "CSS"],
     project_link: "https://github.com/januarmaksum/Landing-page-Restaurant",
     project_link_short: "github.com/januarmaksum/Landing-page-Restaurant",
-    project_image: bannerResto,
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1715918400/landing-page-resto_b67yus.png",
     project_year: "2023",
     project_link_type: "github",
   },
@@ -61,7 +55,7 @@ export const featured = [
     project_build_with: ["Wordpress", "Elementor"],
     project_link: "https://izinmudah.com",
     project_link_short: "izinmudah.com",
-    project_image: bannerLicensing,
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1715918459/website-izin-mudah_s7yhw3.png",
     project_year: "2020",
     project_link_type: "domain",
   }
