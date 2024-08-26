@@ -78,7 +78,7 @@ function App() {
             <section id="projects" className="mb-40">
               <SectionTitle title="Projects" />
               <ol>
-                {dataProjects.slice(0, 5).map((item) => (
+                {dataProjects.map((item) => (
                   <Projects key={item.project_id} data={item} />
                 ))}
               </ol>

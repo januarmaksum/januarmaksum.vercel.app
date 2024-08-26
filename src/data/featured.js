@@ -1,5 +1,28 @@
 export const featured = [
   {
+    project_id: "asd012",
+    project_title: "iSafe Sumatra - Health, Safety and Environment",
+    project_description: "Developed feature in mobile apps using Ionic React Native, available on PlayStore.",
+    project_build_with: ["Ionic", "React Native", "TypeScript"],
+    project_link: "https://play.google.com/store/apps/details?id=com.goldenenergymines.dots",
+    project_link_short: "https://play.google.com/store/apps/details?id=com.goldenenergymines.dots",
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1724642510/iSafe-sumatra_si5570.png",
+    project_year: "2024",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd011",
+    project_title: "Risk Integration Management System",
+    project_description:
+      "Developed the Risk Integration Management System web application for Bank Syariah Indonesia where users could view their risk management. Integrated React, Next.js to display data and interactive charts, providing users with a clear overview of their activities.",
+    project_build_with: ["React", "Next.js", "TypeScript"],
+    project_link: "https://www.bankbsi.co.id",
+    project_link_short: "https://www.bankbsi.co.id",
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1724641990/thumbnail_BSI_zdcblr.jpg",
+    project_year: "2023",
+    project_link_type: "domain",
+  },
+  {
     project_id: "asd01",
     project_title: "Search Jobs App",
     project_description:

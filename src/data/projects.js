@@ -190,4 +190,28 @@ export const projects = [
     project_year: "2022",
     project_link_type: "domain",
   },
+  {
+    project_id: "asd18",
+    project_title: "Risk Integration Management System",
+    project_description:
+      "Developed the Risk Integration Management System web application for Bank Syariah Indonesia where users could view their risk management. Integrated React, Next.js to display data and interactive charts, providing users with a clear overview of their activities.",
+    project_build_with: ["React", "Next.js", "TypeScript"],
+    project_link: "https://www.bankbsi.co.id",
+    project_link_short: "bankbsi.co.id",
+    project_image: null,
+    project_year: "2023",
+    project_link_type: "domain",
+  },
+  {
+    project_id: "asd19",
+    project_title: "iSafe Sumatra - Health, Safety and Environment",
+    project_description:
+      "Developed feature in mobile apps using Ionic React Native, available on PlayStore.",
+    project_build_with: ["Ionic", "React Native", "TypeScript"],
+    project_link: "https://play.google.com/store/apps/details?id=com.goldenenergymines.dots",
+    project_link_short: "play.google.com",
+    project_image: null,
+    project_year: "2024",
+    project_link_type: "domain",
+  },
 ];

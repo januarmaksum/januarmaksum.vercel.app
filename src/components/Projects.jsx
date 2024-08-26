@@ -15,7 +15,7 @@ export default function Projects({ data }) {
           <ImageCover src={data?.project_image} alt={data?.project_title} />
         </header>
         <div className="lg:col-span-8 xl:col-span-7 z-10">
-          <h3 className="font-medium mt-3 xl:mt-0 text-base group-hover:text-primary text-slate-200">
+          <h3 className="font-medium mt-3 xl:mt-0 text-base group-hover:text-primary text-slate-200 text-balance">
             {data?.project_title}
             <LinkArrow />
           </h3>

@@ -88,12 +88,12 @@ export default function AllProjects() {
                     className="group-hover:text-primary cursor-pointer"
                     target="_blank"
                   >
-                    <span className="font-semibold md:pr-0">
+                    <h3 className="font-semibold md:pr-0 text-balance">
                       {item.project_title}{" "}
                       <span className="md:hidden">
                         <LinkArrow />
                       </span>
-                    </span>
+                    </h3>
 
                     <div className="py-3 pr-3 md:hidden font-normal align-top text-slate-400 text-sm break-words">
                       {item.project_description}

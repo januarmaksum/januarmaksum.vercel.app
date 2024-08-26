@@ -14,7 +14,7 @@ export default function Experiences({ data }) {
           {data?.job_start} &mdash; {data?.job_end}
         </header>
         <div className="lg:col-span-8 xl:col-span-7 z-10">
-          <h3 className="font-medium text-base group-hover:text-primary text-slate-200 mt-[5px] xl:mt-0">
+          <h3 className="font-medium text-base text-balance group-hover:text-primary text-slate-200 mt-[5px] xl:mt-0">
             {data?.job_title}{" "}
             <span className="text-slate-400 group-hover:text-primary">at</span>{" "}
             {data?.employer_name}
@@ -22,9 +22,6 @@ export default function Experiences({ data }) {
           </h3>
           {data?.job_description.map((item) => (
             <Fragment key={item.summary}>
-              <p className="mt-2 text-sm group-hover:text-slate-300 text-pretty">
-                {item.summary}
-              </p>
               <ul className="list-disc list-outside mt-2">
                 {item.details.map((detail) => (
                   <li className="text-sm group-hover:text-slate-300 text-pretty" key={detail}>{detail}</li>
