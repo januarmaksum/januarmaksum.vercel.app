@@ -214,4 +214,16 @@ export const projects = [
     project_year: "2024",
     project_link_type: "domain",
   },
+  {
+    project_id: "asd20",
+    project_title: "Indotrading - B2B Marketplace",
+    project_description:
+      "Developed mobile responsive for Indotrading using Bootstrap and JavaScript, ensuring seamless integration and high performance across devices.",
+    project_build_with: ["Bootstrap", "JavaScript", "jQuery"],
+    project_link: "https://www.indotrading.com",
+    project_link_short: "indotrading.com",
+    project_image: null,
+    project_year: "2024",
+    project_link_type: "domain",
+  },
 ];
