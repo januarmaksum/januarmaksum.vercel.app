@@ -6,10 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Inter: ['"Inter"', ...defaultTheme.fontFamily.sans],
+        Inter: ['"Inter"', 'sans-serif'],
       },
       colors: {
-        "dark-blue": "#171921",
         primary: "#F5D061",
       },
     },
