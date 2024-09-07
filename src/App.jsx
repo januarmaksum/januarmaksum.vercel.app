@@ -60,28 +60,28 @@ function App() {
             </section>
             <section id="experience" className="mb-16 lg:mb-40">
               <SectionTitle title="Experience" />
-              <ol>
+              <ul>
                 {dataExperiences.map((item) => (
                   <Experiences key={item.job_id} data={item} />
                 ))}
-                <div className="group mt-4 inline-flex">
-                  <a
-                    href="/januarmaksum-cv.pdf"
-                    className="flex group-hover:text-primary cursor-pointer text-slate-200 font-semibold"
-                  >
-                    View Full Resume
-                    <LinkArrow />
-                  </a>
-                </div>
-              </ol>
+              </ul>
+              <div className="group mt-4 inline-flex">
+                <a
+                  href="/januarmaksum-cv.pdf"
+                  className="flex group-hover:text-primary cursor-pointer text-slate-200 font-semibold"
+                >
+                  View Full Resume
+                  <LinkArrow />
+                </a>
+              </div>
             </section>
             <section id="projects" className="mb-40">
               <SectionTitle title="Projects" />
-              <ol>
+              <ul>
                 {dataProjects.map((item) => (
                   <Projects key={item.project_id} data={item} />
                 ))}
-              </ol>
+              </ul>
               <div className="group mt-4 inline-flex">
                 <button
                   type="button"
