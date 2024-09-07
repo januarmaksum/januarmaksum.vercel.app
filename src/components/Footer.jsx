@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="max-w-md text-sm text-slate-500 sm:pb-0">
+    <footer className="max-w-lg text-sm text-slate-500 sm:pb-0 w-full">
       <p>
         Built with{" "}
         <a href="https://react.dev" className="text-slate-200" target="_blank">
@@ -12,7 +12,7 @@ export default function Footer() {
           className="text-slate-200"
           target="_blank"
         >
-          Tailwind CSS
+          Tailwind
         </a>
         , deployed with{" "}
         <a href="https://vercel.com" className="text-slate-200" target="_blank">
@@ -26,7 +26,15 @@ export default function Footer() {
         >
           Inter
         </a>{" "}
-        typeface.
+        typeface. UI Inspiration from{" "}
+        <a
+          href="https://brittanychiang.com/"
+          target="_blank"
+          className="text-slate-200"
+        >
+          Brittany Chiang
+        </a>
+        .
       </p>
     </footer>
   );

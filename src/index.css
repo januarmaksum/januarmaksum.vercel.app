@@ -15,15 +15,7 @@ html {
 }
 
 body {
-  @apply bg-dark-blue;
-  @apply font-Inter;
-  @apply leading-relaxed;
-  @apply antialiased;
-  @apply font-normal;
-  @apply text-slate-400;
-  @apply selection:bg-primary/10;
-  @apply selection:text-primary;
-  @apply scroll-smooth;
+  @apply bg-slate-950 font-Inter leading-relaxed antialiased font-normal text-slate-400 selection:bg-primary/10 selection:text-primary scroll-smooth;
 }
 
 a:hover {

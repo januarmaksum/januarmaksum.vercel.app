@@ -29,11 +29,11 @@ export default function SocialMedia() {
         </a>
       </li>
       <li className="group">
-        <a href="/januarmaksum-cv.pdf" className="bg-primary group-hover:text-primary border-2 border-primary group-hover:border-primary group-hover:bg-dark-blue transition-all text-dark-blue inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-sm">
+        <a href="/januarmaksum-cv.pdf" className="bg-primary group-hover:text-primary border-2 border-primary group-hover:border-primary group-hover:bg-slate-950 transition-all text-slate-950 inline-flex cursor-pointer gap-1 font-semibold rounded-full items-center px-3 py-1 text-sm">
           <span>Resume</span>
           <GoDownload
             size={20}
-            className="text-dark-blue group-hover:text-primary cursor-pointer"
+            className="text-slate-950 group-hover:text-primary cursor-pointer"
           />
         </a>
       </li>
