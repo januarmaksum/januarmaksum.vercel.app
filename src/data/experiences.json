@@ -9,7 +9,7 @@
       "job_end": "Present",
       "job_city": "Jakarta",
       "job_description": {
-        "summary": "Led frontend development projects for Clinic Health using React, focusing on planning, design, coding, and testing. Designed and implemented features for the SIMRS web application with AngularJS and jQuery. Collaborated with a team of software engineers to resolve development issues and worked closely with a System Analyst for bug fixes. Conducted research and evaluated new technologies to improve processes and codebases.",
+        "summary": "Responsible for developing and maintaining web-based applications for healthcare, such as patient registration, electronic medical records (EMR), appointment scheduling, and other hospital management systems.",
         "details": [
           "Led frontend development projects, planning, design, coding, testing for Clinic Health.",
           "Designed and implemented new features for the internal SIMRS web application.",
@@ -31,7 +31,7 @@
       "job_end": "Aug 2023",
       "job_city": "Jakarta",
       "job_description": {
-        "summary": "Contributed to the successful launch of a mobile-responsive employer dashboard using React, Next.js, TypeScript, and Tailwind, increasing mobile traffic and user experience by 50%. Improved web performance through code optimization and image compression. Collaborated with product managers and designers to develop a user interface style guide, reducing development time for new features and components by 30%.",
+        "summary": "Responsible for developing user-friendly web interfaces for job seekers, employee, and administrators. Focusing on performance, usability, and ensuring mobile responsiveness",
         "details": [
           "Contributed successful mobile-responsive for dashboard employer, increase user experience up to 50%.",
           "Collaborate with UI teams to implement design and integration with backend functionalities.",
@@ -52,7 +52,7 @@
       "job_end": "Oct 2022",
       "job_city": "Jakarta",
       "job_description": {
-        "summary": "Implemented A/B testing and user tracking to optimize UI and user flows, increasing conversion rates by 30%. Reported to the Head of Engineering, improving web performance and boosting loading speeds by 20%. Contributed to the successful UI/UX revamp of the doctor booking process, leading to a 40% increase in user engagement. Developed and tested interfaces, optimized graphics, and ensured cross-browser compatibility and adherence to Web Standards guidelines.",
+        "summary": "Responsible for building and maintaining, responsive web applications for healthcare services like appointment booking and health content platforms.",
         "details": [
           "Success revamp the UI/UX for the booking doctor process, resulting 40% increase in user engagement.",
           "Collaborate with Head of Engineering to improve web performance and loading speeds up to 30%.",
@@ -64,6 +64,28 @@
       "job_skills": ["Polymer.js", "AJAX", "JavaScript", "Ruby on Rails"],
       "employer_name": "Alodokter",
       "employer_link": "https://www.alodokter.com/"
+    },
+    {
+      "job_id": "4",
+      "job_title": "Sr Frontend Developer",
+      "job_employment_type": "Full-time",
+      "job_employment_location": "On-site",
+      "job_start": "Jun 2017",
+      "job_end": "Jun 2019",
+      "job_city": "Jakarta",
+      "job_description": {
+        "summary": "Responsible for building and optimizing user interfaces that enhance the buying and selling experience for businesses. Ensuring seamless navigation, efficient product search, and secure transaction handling on the platform",
+        "details": [
+          "Success revamp the UI/UX for the booking doctor process, resulting 40% increase in user engagement.",
+          "Collaborate with Head of Engineering to improve web performance and loading speeds up to 30%.",
+          "Implemented A/B tests on web, resulting in higher conversion rates and better user engagement.",
+          "Developed and maintained responsive web, ensuring cross-browser compatibility and performance.",
+          "Work closely with QA and Product Manager for immediate bugs/issues resolution."
+        ]
+      },
+      "job_skills": ["Vue", "jQuery", "Bootstrap", "SASS", "Wordpress"],
+      "employer_name": "Indonetwork",
+      "employer_link": "https://www.indonetwork.co.id/"
     }
   ]
 }
