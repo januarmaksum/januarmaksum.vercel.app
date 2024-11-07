@@ -21,7 +21,6 @@ export default function About() {
         <li>SASS</li>
         <li>Wordpress</li>
       </ul>
-      <p>Currently seeking opportunities to collaborate on innovative projects and contribute to dynamic development teams. Let&apos;s connect and explore how we can create impactful solutions together!</p>
     </>
   );
 }

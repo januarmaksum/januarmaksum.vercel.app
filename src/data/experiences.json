@@ -1,12 +1,28 @@
 {
   "experiences": [
     {
+      "job_id": "5",
+      "job_title": "Frontend Developer",
+      "job_employment_type": "Contract",
+      "job_employment_location": "On-site",
+      "job_start": "Nov 2024",
+      "job_end": "Present",
+      "job_city": "Jakarta",
+      "job_description": {
+        "summary": "Responsible for developing and maintaining web-based applications for banking services.",
+        "details": []
+      },
+      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      "employer_name": "Bank BRI",
+      "employer_link": "https://www.bri.co.id/"
+    },
+    {
       "job_id": "1",
       "job_title": "Frontend Developer",
       "job_employment_type": "Contract",
       "job_employment_location": "On-site",
       "job_start": "Oct 2023",
-      "job_end": "Present",
+      "job_end": "Oct 2024",
       "job_city": "Jakarta",
       "job_description": {
         "summary": "Responsible for developing and maintaining web-based applications for healthcare, such as patient registration, electronic medical records (EMR), appointment scheduling, and other hospital management systems.",
