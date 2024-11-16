@@ -80,28 +80,6 @@
       "job_skills": ["Polymer.js", "AJAX", "JavaScript", "Ruby on Rails"],
       "employer_name": "Alodokter",
       "employer_link": "https://www.alodokter.com/"
-    },
-    {
-      "job_id": "4",
-      "job_title": "Sr Frontend Developer",
-      "job_employment_type": "Full-time",
-      "job_employment_location": "On-site",
-      "job_start": "Jun 2017",
-      "job_end": "Jun 2019",
-      "job_city": "Jakarta",
-      "job_description": {
-        "summary": "Responsible for building and optimizing user interfaces that enhance the buying and selling experience for businesses. Ensuring seamless navigation, efficient product search, and secure transaction handling on the platform",
-        "details": [
-          "Success revamp the UI/UX for the booking doctor process, resulting 40% increase in user engagement.",
-          "Collaborate with Head of Engineering to improve web performance and loading speeds up to 30%.",
-          "Implemented A/B tests on web, resulting in higher conversion rates and better user engagement.",
-          "Developed and maintained responsive web, ensuring cross-browser compatibility and performance.",
-          "Work closely with QA and Product Manager for immediate bugs/issues resolution."
-        ]
-      },
-      "job_skills": ["Vue", "jQuery", "Bootstrap", "SASS", "Wordpress"],
-      "employer_name": "Indonetwork",
-      "employer_link": "https://www.indonetwork.co.id/"
     }
   ]
 }
