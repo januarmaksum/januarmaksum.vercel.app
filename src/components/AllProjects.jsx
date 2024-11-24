@@ -21,7 +21,7 @@ export default function AllProjects() {
   const sortByYear = projects.sort((a, b) => b.project_year - a.project_year);
 
   return (
-    <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 pb-40">
+    <div className="mx-auto px-6 md:max-lg:w-4/6 lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 pb-40 z-50 relative">
       <div className="relative pt-16 xl:pt-24">
         <button
           onClick={() => navigate("/")}

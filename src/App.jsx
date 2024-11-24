@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div className="mx-auto lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 min-h-screen">
+    <div className="mx-auto lg:max-w-none xl:max-w-screen-xl lg:px-6 xl:px-24 min-h-screen z-50 relative">
       <div className="lg:flex lg:gap-4">
         <aside className="py-16 xl:py-24 px-6 mx-auto md:w-4/6 lg:w-1/2 lg:sticky max-h-screen flex flex-col justify-between top-0">
           <Summary data={dataNav} onPress={onPress} />

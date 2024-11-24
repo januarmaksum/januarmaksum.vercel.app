@@ -32,10 +32,6 @@ a.active .nav-text {
   @apply text-slate-200;
 }
 
-.hero {
-  background: radial-gradient(600px at 0px 75px, rgba(29, 78, 216, 0.15), transparent 80%)
-}
-
 @media screen and (max-width: 1439px), screen and (max-height: 700px) {
   .avatar {
     display: none;
