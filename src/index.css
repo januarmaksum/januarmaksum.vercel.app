@@ -12,6 +12,7 @@
 
 html {
   scroll-padding-top: 120px;
+  @apply text-sm md:text-base;
 }
 
 body {
