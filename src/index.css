@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  @apply bg-slate-950 font-Inter leading-relaxed antialiased font-normal text-slate-400 selection:bg-primary/10 selection:text-primary scroll-smooth;
+  @apply bg-slate-900 font-Inter leading-relaxed antialiased font-normal text-slate-400 selection:bg-primary/10 selection:text-primary scroll-smooth;
 }
 
 a:hover {
@@ -33,21 +33,7 @@ a.active .nav-text {
 }
 
 .hero {
-  background: radial-gradient(
-    600px circle at var(--x) var(--y),
-    rgba(29, 78, 216, 0.15),
-    transparent 80%
-  );
-}
-
-@media screen and (min-width: 1024px) {
-  .hero {
-    background: radial-gradient(
-      600px at var(--x) var(--y),
-      rgba(29, 78, 216, 0.15),
-      transparent 80%
-    );
-  }
+  background: radial-gradient(600px at 0px 75px, rgba(29, 78, 216, 0.15), transparent 80%)
 }
 
 @media screen and (max-width: 1439px), screen and (max-height: 700px) {
