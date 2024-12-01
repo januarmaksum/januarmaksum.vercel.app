@@ -3,7 +3,7 @@ import { GoDownload } from "react-icons/go";
 
 export default function SocialMedia() {
   return (
-    <ul className="flex items-center mt-9 lg:mt-0 gap-4">
+    <ul className="flex items-center mt-9 lg:mt-0 gap-4 justify-center md:justify-start">
       <li>
         <a href="https://www.linkedin.com/in/januarmaksum" target="_blank" aria-label="Connect my linkedin profile">
           <FaLinkedin

@@ -13,7 +13,7 @@ import navigation from "./data/navigation.json";
 import { featured } from "./data/featured";
 import { useNavigate } from "react-router-dom";
 
-function App() {
+export default function App() {
   const navigate = useNavigate();
   const parentScrollContainerRef = useRef(null);
   const dataExperiences = experiences.experiences;
@@ -112,5 +112,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

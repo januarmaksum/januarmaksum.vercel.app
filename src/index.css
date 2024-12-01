@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --y: 0;
-    --x: 0;
-    text-rendering: optimizeLegibility;
-  }
-}
-
 html {
   scroll-padding-top: 120px;
   @apply text-sm md:text-base;
@@ -24,30 +16,9 @@ a:hover {
 }
 
 a.active .nav-indicator {
-  @apply bg-slate-200;
-  @apply w-16;
+  @apply bg-slate-200 w-16;
 }
 
 a.active .nav-text {
   @apply text-slate-200;
-}
-
-@media screen and (max-width: 1439px), screen and (max-height: 700px) {
-  .avatar {
-    display: none;
-  }
-
-  .title-page {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .avatar {
-    display: block;
-  }
-
-  .title-page {
-    margin-top: 1.5rem;
-  }
 }
