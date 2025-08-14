@@ -26,15 +26,7 @@ export default function Footer() {
         >
           Inter
         </a>{" "}
-        typeface. UI Inspiration from{" "}
-        <a
-          href="https://brittanychiang.com/"
-          target="_blank"
-          className="text-slate-200"
-        >
-          Brittany Chiang
-        </a>
-        .
+        typeface.
       </p>
     </footer>
   );
