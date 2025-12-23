@@ -1,5 +1,16 @@
 export const featured = [
   {
+    project_id: "asd014",
+    project_title: "GNC SHOOT - Studio Photo",
+    project_description: "The site features a modern, responsive design with optimized performance for mobile devices, showcasing cinematic portrait photography.",
+    project_build_with: ["Wordpress", "JavaScript"],
+    project_link: "https://gncshoot.com",
+    project_link_short: "https://gncshoot.com",
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1766452966/gncshoot_j2sq4y.png",
+    project_year: "2025",
+    project_link_type: "domain",
+  },
+  {
     project_id: "asd013",
     project_title: "Indotrading - B2B Marketplace",
     project_description: "Developed mobile responsive for Indotrading using Bootstrap and JavaScript, ensuring seamless integration and high performance across devices.",
@@ -57,40 +68,4 @@ export const featured = [
     project_year: "2024",
     project_link_type: "github",
   },
-  {
-    project_id: "asd03",
-    project_title: "Movie Search App",
-    project_description:
-      "Built with React, this app offers a seamless and intuitive experience for movie enthusiasts to search for their favorite films and explore details.",
-    project_build_with: ["React", "React Router"],
-    project_link: "https://github.com/januarmaksum/movie-app-react",
-    project_link_short: "github.com/januarmaksum/movie-app-react",
-    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/f_auto/v1715918145/movie-app_zovfhd.jpg",
-    project_year: "2021",
-    project_link_type: "github",
-  },
-  {
-    project_id: "asd04",
-    project_title: "Restaurant ∙ Landing page",
-    project_description:
-      "Create a visually appealing and functional landing page for a restaurant named Resto using HTML and CSS.",
-    project_build_with: ["HTML", "CSS"],
-    project_link: "https://github.com/januarmaksum/Landing-page-Restaurant",
-    project_link_short: "github.com/januarmaksum/Landing-page-Restaurant",
-    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/f_auto/v1715918400/landing-page-resto_b67yus.png",
-    project_year: "2023",
-    project_link_type: "github",
-  },
-  {
-    project_id: "asd05",
-    project_title: "Business Licensing Services",
-    project_description:
-      "Built and design online platform dedicated to simplifying the process of obtaining business licenses. Optimized structure html for best practice SEO.",
-    project_build_with: ["Wordpress", "Elementor"],
-    project_link: "https://izinmudah.com",
-    project_link_short: "izinmudah.com",
-    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/f_auto/v1715918459/website-izin-mudah_s7yhw3.png",
-    project_year: "2020",
-    project_link_type: "domain",
-  }
 ];

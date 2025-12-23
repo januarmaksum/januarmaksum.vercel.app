@@ -1,5 +1,16 @@
 export const projects = [
   {
+    project_id: "asd014",
+    project_title: "GNC SHOOT - Studio Photo",
+    project_description: "The site features a modern, responsive design with optimized performance for mobile devices, showcasing cinematic portrait photography.",
+    project_build_with: ["Wordpress", "JavaScript"],
+    project_link: "https://gncshoot.com",
+    project_link_short: "https://gncshoot.com",
+    project_image: "https://res.cloudinary.com/dy3fjf8fc/image/upload/v1766452966/gncshoot_j2sq4y.png",
+    project_year: "2025",
+    project_link_type: "domain",
+  },
+  {
     project_id: "asd01",
     project_title: "Search Jobs App",
     project_description:
