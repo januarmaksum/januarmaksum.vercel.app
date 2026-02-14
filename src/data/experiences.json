@@ -1,18 +1,44 @@
 {
   "experiences": [
     {
+      "job_id": "6",
+      "job_title": "Frontend Engineer",
+      "job_employment_type": "Contract",
+      "job_employment_location": "Hybrid",
+      "job_start": "Feb 2026",
+      "job_end": "Present",
+      "job_city": "Jakarta",
+      "job_description": {
+        "summary": "Responsible for building and optimizing complex financial web applications, implementing reusable component architecture, improving performance, and collaborating closely with product and backend teams to deliver high-quality user interfaces.",
+        "details": []
+      },
+      "job_skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "employer_name": "Ajaib",
+      "employer_link": "https://www.ajaib.co.id/"
+    },
+    {
       "job_id": "5",
       "job_title": "Frontend Web Developer",
       "job_employment_type": "Contract",
       "job_employment_location": "On-site",
       "job_start": "Nov 2024",
-      "job_end": "Present",
+      "job_end": "Jan 2026",
       "job_city": "Jakarta",
       "job_description": {
-        "summary": "Responsible for developing and maintaining web-based applications for banking services.",
+        "summary": "Responsible for developing and maintaining web-based applications for AgenBRILink.",
         "details": []
       },
-      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      "job_skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
       "employer_name": "Bank BRI",
       "employer_link": "https://www.bri.co.id/"
     },
@@ -34,7 +60,11 @@
           "Research and evaluation of new technologies that may improve our processes or code bases."
         ]
       },
-      "job_skills": ["React", "AngularJS", "jQuery"],
+      "job_skills": [
+        "React",
+        "AngularJS",
+        "jQuery"
+      ],
       "employer_name": "RS Harapan Kita",
       "employer_link": "https://www.rsabhk.co.id/"
     },
@@ -55,7 +85,12 @@
           "Work closely with QA for immediate bugs/issues resolution."
         ]
       },
-      "job_skills": ["React", "Next.js", "TypeScript", "TailwindCSS"],
+      "job_skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
       "employer_name": "Pintarnya",
       "employer_link": "https://pintarnya.com/"
     },
@@ -77,7 +112,12 @@
           "Work closely with QA and Product Manager for immediate bugs/issues resolution."
         ]
       },
-      "job_skills": ["Polymer.js", "AJAX", "JavaScript", "Ruby on Rails"],
+      "job_skills": [
+        "Polymer.js",
+        "AJAX",
+        "JavaScript",
+        "Ruby on Rails"
+      ],
       "employer_name": "Alodokter",
       "employer_link": "https://www.alodokter.com/"
     }

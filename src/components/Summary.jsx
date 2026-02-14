@@ -34,7 +34,7 @@ export default function Summary({ data, onPress }) {
         Januar Maksum
       </h1>
       <div className="text-lg md:text-xl mt-2 text-slate-300 font-medium text-center md:text-left">
-        Frontend Web Developer
+        Web & Mobile Developer
       </div>
       <nav className="hidden lg:flex flex-col mt-12 mb-12">
         <ul className="w-max">
